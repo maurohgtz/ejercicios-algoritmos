@@ -1,0 +1,4386 @@
+{
+  "ej1": {
+    "muestras": 3000000,
+    "repeticiones": 3,
+    "ensayos": [
+      {
+        "procesos": 1,
+        "repeticion": 1,
+        "segundos": 2.406629,
+        "pi_estimado": 3.14057867,
+        "muestras": 3000000
+      },
+      {
+        "procesos": 1,
+        "repeticion": 2,
+        "segundos": 2.266372,
+        "pi_estimado": 3.14209467,
+        "muestras": 3000000
+      },
+      {
+        "procesos": 1,
+        "repeticion": 3,
+        "segundos": 2.330699,
+        "pi_estimado": 3.14236667,
+        "muestras": 3000000
+      },
+      {
+        "procesos": 2,
+        "repeticion": 1,
+        "segundos": 4.929927,
+        "pi_estimado": 3.14130667,
+        "muestras": 3000000
+      },
+      {
+        "procesos": 2,
+        "repeticion": 2,
+        "segundos": 4.769205,
+        "pi_estimado": 3.14251067,
+        "muestras": 3000000
+      },
+      {
+        "procesos": 2,
+        "repeticion": 3,
+        "segundos": 4.811418,
+        "pi_estimado": 3.141656,
+        "muestras": 3000000
+      },
+      {
+        "procesos": 4,
+        "repeticion": 1,
+        "segundos": 3.537013,
+        "pi_estimado": 3.14152267,
+        "muestras": 3000000
+      },
+      {
+        "procesos": 4,
+        "repeticion": 2,
+        "segundos": 3.040603,
+        "pi_estimado": 3.142316,
+        "muestras": 3000000
+      },
+      {
+        "procesos": 4,
+        "repeticion": 3,
+        "segundos": 2.708567,
+        "pi_estimado": 3.14154933,
+        "muestras": 3000000
+      },
+      {
+        "procesos": 8,
+        "repeticion": 1,
+        "segundos": 4.303816,
+        "pi_estimado": 3.142932,
+        "muestras": 3000000
+      },
+      {
+        "procesos": 8,
+        "repeticion": 2,
+        "segundos": 3.806829,
+        "pi_estimado": 3.14320933,
+        "muestras": 3000000
+      },
+      {
+        "procesos": 8,
+        "repeticion": 3,
+        "segundos": 4.458941,
+        "pi_estimado": 3.141632,
+        "muestras": 3000000
+      }
+    ],
+    "resumen": [
+      {
+        "procesos": 1,
+        "mediana_s": 2.330699,
+        "speedup": 1.0,
+        "speedup_ideal": 1,
+        "eficiencia": 1.0
+      },
+      {
+        "procesos": 2,
+        "mediana_s": 4.811418,
+        "speedup": 0.4844,
+        "speedup_ideal": 2,
+        "eficiencia": 0.2422
+      },
+      {
+        "procesos": 4,
+        "mediana_s": 3.040603,
+        "speedup": 0.7665,
+        "speedup_ideal": 4,
+        "eficiencia": 0.1916
+      },
+      {
+        "procesos": 8,
+        "mediana_s": 4.303816,
+        "speedup": 0.5415,
+        "speedup_ideal": 8,
+        "eficiencia": 0.0677
+      }
+    ]
+  },
+  "ej2": {
+    "objetos": [
+      {
+        "nombre": "A",
+        "peso": 2,
+        "valor": 2
+      },
+      {
+        "nombre": "B",
+        "peso": 4,
+        "valor": 8
+      },
+      {
+        "nombre": "C",
+        "peso": 6,
+        "valor": 18
+      }
+    ],
+    "capacidad": 10,
+    "metodos": {
+      "peso": {
+        "nombres": [
+          "A",
+          "B"
+        ],
+        "peso": 6,
+        "valor": 10
+      },
+      "densidad": {
+        "nombres": [
+          "C",
+          "B"
+        ],
+        "peso": 10,
+        "valor": 26
+      }
+    }
+  },
+  "ej3": {
+    "ciudades": 25,
+    "repeticiones": 40,
+    "filas": [
+      {
+        "ensayo": 1,
+        "aleatoria_mejoras": 19,
+        "vecino_mejoras": 2,
+        "aleatoria_inicial": 1185.76648,
+        "vecino_inicial": 528.651864,
+        "aleatoria_final": 505.639882,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 2,
+        "aleatoria_mejoras": 19,
+        "vecino_mejoras": 5,
+        "aleatoria_inicial": 1518.165119,
+        "vecino_inicial": 559.721542,
+        "aleatoria_final": 506.486512,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 3,
+        "aleatoria_mejoras": 15,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1516.664034,
+        "vecino_inicial": 546.154663,
+        "aleatoria_final": 489.639416,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 4,
+        "aleatoria_mejoras": 25,
+        "vecino_mejoras": 6,
+        "aleatoria_inicial": 1420.300442,
+        "vecino_inicial": 632.10387,
+        "aleatoria_final": 498.231416,
+        "vecino_final": 486.660486
+      },
+      {
+        "ensayo": 5,
+        "aleatoria_mejoras": 23,
+        "vecino_mejoras": 4,
+        "aleatoria_inicial": 1669.299095,
+        "vecino_inicial": 553.768985,
+        "aleatoria_final": 501.537984,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 6,
+        "aleatoria_mejoras": 18,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1406.698047,
+        "vecino_inicial": 554.614723,
+        "aleatoria_final": 517.137273,
+        "vecino_final": 504.235012
+      },
+      {
+        "ensayo": 7,
+        "aleatoria_mejoras": 18,
+        "vecino_mejoras": 4,
+        "aleatoria_inicial": 1406.890719,
+        "vecino_inicial": 553.768985,
+        "aleatoria_final": 518.481895,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 8,
+        "aleatoria_mejoras": 20,
+        "vecino_mejoras": 2,
+        "aleatoria_inicial": 1554.329492,
+        "vecino_inicial": 528.651864,
+        "aleatoria_final": 519.688044,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 9,
+        "aleatoria_mejoras": 18,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1372.088325,
+        "vecino_inicial": 546.154663,
+        "aleatoria_final": 526.110253,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 10,
+        "aleatoria_mejoras": 20,
+        "vecino_mejoras": 6,
+        "aleatoria_inicial": 1440.964567,
+        "vecino_inicial": 638.598482,
+        "aleatoria_final": 523.803537,
+        "vecino_final": 502.102711
+      },
+      {
+        "ensayo": 11,
+        "aleatoria_mejoras": 22,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1329.924144,
+        "vecino_inicial": 546.154663,
+        "aleatoria_final": 508.965051,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 12,
+        "aleatoria_mejoras": 18,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1376.862205,
+        "vecino_inicial": 546.154663,
+        "aleatoria_final": 519.872074,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 13,
+        "aleatoria_mejoras": 18,
+        "vecino_mejoras": 4,
+        "aleatoria_inicial": 1325.195252,
+        "vecino_inicial": 553.768985,
+        "aleatoria_final": 501.880947,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 14,
+        "aleatoria_mejoras": 18,
+        "vecino_mejoras": 5,
+        "aleatoria_inicial": 1178.614906,
+        "vecino_inicial": 626.504225,
+        "aleatoria_final": 501.880947,
+        "vecino_final": 486.660486
+      },
+      {
+        "ensayo": 15,
+        "aleatoria_mejoras": 21,
+        "vecino_mejoras": 6,
+        "aleatoria_inicial": 1520.282346,
+        "vecino_inicial": 638.598482,
+        "aleatoria_final": 503.153993,
+        "vecino_final": 502.102711
+      },
+      {
+        "ensayo": 16,
+        "aleatoria_mejoras": 19,
+        "vecino_mejoras": 4,
+        "aleatoria_inicial": 1316.669803,
+        "vecino_inicial": 553.768985,
+        "aleatoria_final": 502.384614,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 17,
+        "aleatoria_mejoras": 15,
+        "vecino_mejoras": 2,
+        "aleatoria_inicial": 1117.19513,
+        "vecino_inicial": 510.455757,
+        "aleatoria_final": 500.798024,
+        "vecino_final": 486.660486
+      },
+      {
+        "ensayo": 18,
+        "aleatoria_mejoras": 18,
+        "vecino_mejoras": 5,
+        "aleatoria_inicial": 1467.416747,
+        "vecino_inicial": 550.556576,
+        "aleatoria_final": 499.330177,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 19,
+        "aleatoria_mejoras": 19,
+        "vecino_mejoras": 8,
+        "aleatoria_inicial": 1361.191864,
+        "vecino_inicial": 669.475522,
+        "aleatoria_final": 499.225795,
+        "vecino_final": 504.708802
+      },
+      {
+        "ensayo": 20,
+        "aleatoria_mejoras": 22,
+        "vecino_mejoras": 8,
+        "aleatoria_inicial": 1495.724304,
+        "vecino_inicial": 669.475522,
+        "aleatoria_final": 517.620375,
+        "vecino_final": 504.708802
+      },
+      {
+        "ensayo": 21,
+        "aleatoria_mejoras": 21,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1310.831557,
+        "vecino_inicial": 546.154663,
+        "aleatoria_final": 498.231416,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 22,
+        "aleatoria_mejoras": 21,
+        "vecino_mejoras": 5,
+        "aleatoria_inicial": 1456.841038,
+        "vecino_inicial": 579.637652,
+        "aleatoria_final": 513.608944,
+        "vecino_final": 502.102711
+      },
+      {
+        "ensayo": 23,
+        "aleatoria_mejoras": 22,
+        "vecino_mejoras": 6,
+        "aleatoria_inicial": 1335.073938,
+        "vecino_inicial": 554.567494,
+        "aleatoria_final": 521.484113,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 24,
+        "aleatoria_mejoras": 17,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1411.889165,
+        "vecino_inicial": 546.154663,
+        "aleatoria_final": 507.590578,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 25,
+        "aleatoria_mejoras": 19,
+        "vecino_mejoras": 6,
+        "aleatoria_inicial": 1439.81833,
+        "vecino_inicial": 638.598482,
+        "aleatoria_final": 503.153993,
+        "vecino_final": 502.102711
+      },
+      {
+        "ensayo": 26,
+        "aleatoria_mejoras": 19,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1531.52373,
+        "vecino_inicial": 554.614723,
+        "aleatoria_final": 499.330177,
+        "vecino_final": 504.235012
+      },
+      {
+        "ensayo": 27,
+        "aleatoria_mejoras": 15,
+        "vecino_mejoras": 4,
+        "aleatoria_inicial": 1305.450007,
+        "vecino_inicial": 553.768985,
+        "aleatoria_final": 521.484113,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 28,
+        "aleatoria_mejoras": 19,
+        "vecino_mejoras": 2,
+        "aleatoria_inicial": 1313.575521,
+        "vecino_inicial": 528.651864,
+        "aleatoria_final": 528.21246,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 29,
+        "aleatoria_mejoras": 22,
+        "vecino_mejoras": 8,
+        "aleatoria_inicial": 1370.016824,
+        "vecino_inicial": 669.475522,
+        "aleatoria_final": 503.153993,
+        "vecino_final": 504.708802
+      },
+      {
+        "ensayo": 30,
+        "aleatoria_mejoras": 20,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1468.496011,
+        "vecino_inicial": 554.614723,
+        "aleatoria_final": 503.861255,
+        "vecino_final": 504.235012
+      },
+      {
+        "ensayo": 31,
+        "aleatoria_mejoras": 21,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1450.620712,
+        "vecino_inicial": 554.614723,
+        "aleatoria_final": 501.880947,
+        "vecino_final": 504.235012
+      },
+      {
+        "ensayo": 32,
+        "aleatoria_mejoras": 21,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1383.182325,
+        "vecino_inicial": 546.154663,
+        "aleatoria_final": 513.707492,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 33,
+        "aleatoria_mejoras": 20,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1319.620411,
+        "vecino_inicial": 546.154663,
+        "aleatoria_final": 510.05796,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 34,
+        "aleatoria_mejoras": 18,
+        "vecino_mejoras": 5,
+        "aleatoria_inicial": 1238.693624,
+        "vecino_inicial": 626.504225,
+        "aleatoria_final": 501.880947,
+        "vecino_final": 486.660486
+      },
+      {
+        "ensayo": 35,
+        "aleatoria_mejoras": 20,
+        "vecino_mejoras": 5,
+        "aleatoria_inicial": 1382.480879,
+        "vecino_inicial": 579.433248,
+        "aleatoria_final": 515.546219,
+        "vecino_final": 502.102711
+      },
+      {
+        "ensayo": 36,
+        "aleatoria_mejoras": 18,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1366.763982,
+        "vecino_inicial": 546.154663,
+        "aleatoria_final": 504.637017,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 37,
+        "aleatoria_mejoras": 18,
+        "vecino_mejoras": 2,
+        "aleatoria_inicial": 1327.331415,
+        "vecino_inicial": 528.651864,
+        "aleatoria_final": 518.140022,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 38,
+        "aleatoria_mejoras": 19,
+        "vecino_mejoras": 5,
+        "aleatoria_inicial": 1225.100868,
+        "vecino_inicial": 626.504225,
+        "aleatoria_final": 488.792787,
+        "vecino_final": 486.660486
+      },
+      {
+        "ensayo": 39,
+        "aleatoria_mejoras": 18,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1366.37563,
+        "vecino_inicial": 546.154663,
+        "aleatoria_final": 499.225795,
+        "vecino_final": 501.880947
+      },
+      {
+        "ensayo": 40,
+        "aleatoria_mejoras": 17,
+        "vecino_mejoras": 3,
+        "aleatoria_inicial": 1357.868059,
+        "vecino_inicial": 546.154663,
+        "aleatoria_final": 503.776954,
+        "vecino_final": 501.880947
+      }
+    ],
+    "historial_ejemplo": {
+      "aleatoria": [
+        1185.7664804535307,
+        1034.2430658593275,
+        965.343717598623,
+        890.9846047159228,
+        830.0995012662543,
+        782.084969271861,
+        741.7396854914697,
+        710.596629105603,
+        674.6614076339218,
+        636.6089220458462,
+        614.1768541222241,
+        599.1687036434173,
+        581.4594426784993,
+        566.662974264352,
+        546.0240928318999,
+        531.9798014351861,
+        520.3047239958371,
+        515.0436458046297,
+        510.4934953047372,
+        505.63988227629164
+      ],
+      "vecino": [
+        528.6518642102396,
+        505.8450599724198,
+        501.88094729962273
+      ]
+    },
+    "resumen": {
+      "mejoras_aleatoria": 19.25,
+      "mejoras_vecino": 4.1,
+      "costo_aleatoria": 507.990634775,
+      "costo_vecino": 500.4536055,
+      "costo_inicial_aleatoria": 1383.544926175,
+      "costo_inicial_vecino": 571.9955848000001
+    }
+  },
+  "ej4": {
+    "ciudades": 25,
+    "repeticiones": 25,
+    "iteraciones": 4500,
+    "filas": [
+      {
+        "ensayo": 1,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1226.836791,
+        "costo_final": 505.446294,
+        "segundos": 0.018513
+      },
+      {
+        "ensayo": 1,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1226.836791,
+        "costo_final": 513.753183,
+        "segundos": 0.020149
+      },
+      {
+        "ensayo": 2,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1523.447973,
+        "costo_final": 520.812077,
+        "segundos": 0.023005
+      },
+      {
+        "ensayo": 2,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1523.447973,
+        "costo_final": 523.803537,
+        "segundos": 0.019029
+      },
+      {
+        "ensayo": 3,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1344.992998,
+        "costo_final": 558.653054,
+        "segundos": 0.023486
+      },
+      {
+        "ensayo": 3,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1344.992998,
+        "costo_final": 502.930325,
+        "segundos": 0.023191
+      },
+      {
+        "ensayo": 4,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1256.784928,
+        "costo_final": 515.927023,
+        "segundos": 0.025329
+      },
+      {
+        "ensayo": 4,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1256.784928,
+        "costo_final": 499.405684,
+        "segundos": 0.031168
+      },
+      {
+        "ensayo": 5,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1599.374624,
+        "costo_final": 541.023106,
+        "segundos": 0.02571
+      },
+      {
+        "ensayo": 5,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1599.374624,
+        "costo_final": 514.910818,
+        "segundos": 0.027379
+      },
+      {
+        "ensayo": 6,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1522.308433,
+        "costo_final": 514.434497,
+        "segundos": 0.021096
+      },
+      {
+        "ensayo": 6,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1522.308433,
+        "costo_final": 499.330177,
+        "segundos": 0.020654
+      },
+      {
+        "ensayo": 7,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1381.3543,
+        "costo_final": 533.188443,
+        "segundos": 0.014483
+      },
+      {
+        "ensayo": 7,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1381.3543,
+        "costo_final": 499.225795,
+        "segundos": 0.014639
+      },
+      {
+        "ensayo": 8,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1630.469599,
+        "costo_final": 511.051553,
+        "segundos": 0.016149
+      },
+      {
+        "ensayo": 8,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1630.469599,
+        "costo_final": 498.231416,
+        "segundos": 0.016751
+      },
+      {
+        "ensayo": 9,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1329.446315,
+        "costo_final": 514.074367,
+        "segundos": 0.012236
+      },
+      {
+        "ensayo": 9,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1329.446315,
+        "costo_final": 506.486512,
+        "segundos": 0.012171
+      },
+      {
+        "ensayo": 10,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1543.440262,
+        "costo_final": 504.572417,
+        "segundos": 0.0131
+      },
+      {
+        "ensayo": 10,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1543.440262,
+        "costo_final": 505.081642,
+        "segundos": 0.016353
+      },
+      {
+        "ensayo": 11,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1271.540557,
+        "costo_final": 504.939372,
+        "segundos": 0.014777
+      },
+      {
+        "ensayo": 11,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1271.540557,
+        "costo_final": 503.507582,
+        "segundos": 0.014725
+      },
+      {
+        "ensayo": 12,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1310.823332,
+        "costo_final": 503.492494,
+        "segundos": 0.012125
+      },
+      {
+        "ensayo": 12,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1310.823332,
+        "costo_final": 500.798024,
+        "segundos": 0.012115
+      },
+      {
+        "ensayo": 13,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1471.09913,
+        "costo_final": 513.429311,
+        "segundos": 0.012869
+      },
+      {
+        "ensayo": 13,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1471.09913,
+        "costo_final": 523.259121,
+        "segundos": 0.015724
+      },
+      {
+        "ensayo": 14,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1454.275888,
+        "costo_final": 516.881459,
+        "segundos": 0.013616
+      },
+      {
+        "ensayo": 14,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1454.275888,
+        "costo_final": 504.909394,
+        "segundos": 0.012716
+      },
+      {
+        "ensayo": 15,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1293.387056,
+        "costo_final": 513.761127,
+        "segundos": 0.01452
+      },
+      {
+        "ensayo": 15,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1293.387056,
+        "costo_final": 505.639882,
+        "segundos": 0.011491
+      },
+      {
+        "ensayo": 16,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1244.706503,
+        "costo_final": 495.298783,
+        "segundos": 0.013103
+      },
+      {
+        "ensayo": 16,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1244.706503,
+        "costo_final": 520.708351,
+        "segundos": 0.028668
+      },
+      {
+        "ensayo": 17,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1392.923547,
+        "costo_final": 506.547378,
+        "segundos": 0.045216
+      },
+      {
+        "ensayo": 17,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1392.923547,
+        "costo_final": 499.405684,
+        "segundos": 0.049209
+      },
+      {
+        "ensayo": 18,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1262.763757,
+        "costo_final": 512.857876,
+        "segundos": 0.06061
+      },
+      {
+        "ensayo": 18,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1262.763757,
+        "costo_final": 500.290177,
+        "segundos": 0.045243
+      },
+      {
+        "ensayo": 19,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1260.31837,
+        "costo_final": 530.322208,
+        "segundos": 0.0357
+      },
+      {
+        "ensayo": 19,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1260.31837,
+        "costo_final": 486.660486,
+        "segundos": 0.034109
+      },
+      {
+        "ensayo": 20,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1376.790526,
+        "costo_final": 504.235012,
+        "segundos": 0.036476
+      },
+      {
+        "ensayo": 20,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1376.790526,
+        "costo_final": 508.883129,
+        "segundos": 0.038228
+      },
+      {
+        "ensayo": 21,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1341.538435,
+        "costo_final": 532.159389,
+        "segundos": 0.052015
+      },
+      {
+        "ensayo": 21,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1341.538435,
+        "costo_final": 498.231416,
+        "segundos": 0.086915
+      },
+      {
+        "ensayo": 22,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1460.795358,
+        "costo_final": 515.117405,
+        "segundos": 0.074307
+      },
+      {
+        "ensayo": 22,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1460.795358,
+        "costo_final": 502.102711,
+        "segundos": 0.129749
+      },
+      {
+        "ensayo": 23,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1418.174501,
+        "costo_final": 486.660486,
+        "segundos": 0.114211
+      },
+      {
+        "ensayo": 23,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1418.174501,
+        "costo_final": 508.883129,
+        "segundos": 0.044816
+      },
+      {
+        "ensayo": 24,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1553.973045,
+        "costo_final": 512.524225,
+        "segundos": 0.037876
+      },
+      {
+        "ensayo": 24,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1553.973045,
+        "costo_final": 516.097098,
+        "segundos": 0.038832
+      },
+      {
+        "ensayo": 25,
+        "enfriamiento": "lineal",
+        "costo_inicial": 1383.582821,
+        "costo_final": 506.803524,
+        "segundos": 0.035028
+      },
+      {
+        "ensayo": 25,
+        "enfriamiento": "exponencial",
+        "costo_inicial": 1383.582821,
+        "costo_final": 533.565835,
+        "segundos": 0.032026
+      }
+    ],
+    "historiales": {
+      "lineal": [
+        [
+          0,
+          1226.836791140082,
+          40
+        ],
+        [
+          25,
+          1069.037698989163,
+          39.78715270060013
+        ],
+        [
+          50,
+          1002.2376334855664,
+          39.56543676372527
+        ],
+        [
+          75,
+          1002.2376334855664,
+          39.34372082685041
+        ],
+        [
+          100,
+          1002.2376334855664,
+          39.12200488997555
+        ],
+        [
+          125,
+          895.2363825372566,
+          38.90028895310069
+        ],
+        [
+          150,
+          844.7047953988839,
+          38.678573016225826
+        ],
+        [
+          175,
+          844.7047953988839,
+          38.45685707935097
+        ],
+        [
+          200,
+          844.7047953988839,
+          38.2351411424761
+        ],
+        [
+          225,
+          844.7047953988839,
+          38.013425205601244
+        ],
+        [
+          250,
+          844.7047953988839,
+          37.791709268726386
+        ],
+        [
+          275,
+          844.7047953988839,
+          37.56999333185152
+        ],
+        [
+          300,
+          844.7047953988839,
+          37.34827739497666
+        ],
+        [
+          325,
+          844.7047953988839,
+          37.126561458101804
+        ],
+        [
+          350,
+          844.7047953988839,
+          36.90484552122694
+        ],
+        [
+          375,
+          844.7047953988839,
+          36.68312958435208
+        ],
+        [
+          400,
+          844.7047953988839,
+          36.461413647477215
+        ],
+        [
+          425,
+          844.7047953988839,
+          36.23969771060236
+        ],
+        [
+          450,
+          844.7047953988839,
+          36.0179817737275
+        ],
+        [
+          475,
+          844.7047953988839,
+          35.79626583685263
+        ],
+        [
+          500,
+          844.7047953988839,
+          35.574549899977775
+        ],
+        [
+          525,
+          844.7047953988839,
+          35.35283396310291
+        ],
+        [
+          550,
+          844.7047953988839,
+          35.13111802622805
+        ],
+        [
+          575,
+          844.7047953988839,
+          34.90940208935319
+        ],
+        [
+          600,
+          844.7047953988839,
+          34.68768615247833
+        ],
+        [
+          625,
+          844.7047953988839,
+          34.46597021560347
+        ],
+        [
+          650,
+          844.7047953988839,
+          34.244254278728604
+        ],
+        [
+          675,
+          844.7047953988839,
+          34.022538341853746
+        ],
+        [
+          700,
+          844.7047953988839,
+          33.80082240497889
+        ],
+        [
+          725,
+          844.7047953988839,
+          33.57910646810402
+        ],
+        [
+          750,
+          844.7047953988839,
+          33.357390531229164
+        ],
+        [
+          775,
+          833.2036636564501,
+          33.1356745943543
+        ],
+        [
+          800,
+          821.488551700652,
+          32.91395865747944
+        ],
+        [
+          825,
+          821.488551700652,
+          32.69224272060458
+        ],
+        [
+          850,
+          821.488551700652,
+          32.47052678372972
+        ],
+        [
+          875,
+          821.488551700652,
+          32.24881084685486
+        ],
+        [
+          900,
+          821.488551700652,
+          32.02709490997999
+        ],
+        [
+          925,
+          821.488551700652,
+          31.805378973105135
+        ],
+        [
+          950,
+          821.488551700652,
+          31.583663036230273
+        ],
+        [
+          975,
+          821.488551700652,
+          31.36194709935541
+        ],
+        [
+          1000,
+          821.488551700652,
+          31.140231162480553
+        ],
+        [
+          1025,
+          821.488551700652,
+          30.918515225605688
+        ],
+        [
+          1050,
+          821.488551700652,
+          30.69679928873083
+        ],
+        [
+          1075,
+          821.488551700652,
+          30.475083351855968
+        ],
+        [
+          1100,
+          821.488551700652,
+          30.253367414981106
+        ],
+        [
+          1125,
+          821.488551700652,
+          30.031651478106248
+        ],
+        [
+          1150,
+          821.488551700652,
+          29.809935541231383
+        ],
+        [
+          1175,
+          821.488551700652,
+          29.588219604356524
+        ],
+        [
+          1200,
+          821.488551700652,
+          29.366503667481663
+        ],
+        [
+          1225,
+          821.488551700652,
+          29.1447877306068
+        ],
+        [
+          1250,
+          821.488551700652,
+          28.923071793731943
+        ],
+        [
+          1275,
+          821.488551700652,
+          28.70135585685708
+        ],
+        [
+          1300,
+          821.488551700652,
+          28.47963991998222
+        ],
+        [
+          1325,
+          821.488551700652,
+          28.257923983107357
+        ],
+        [
+          1350,
+          821.488551700652,
+          28.036208046232495
+        ],
+        [
+          1375,
+          821.488551700652,
+          27.814492109357637
+        ],
+        [
+          1400,
+          821.488551700652,
+          27.592776172482775
+        ],
+        [
+          1425,
+          821.488551700652,
+          27.371060235607914
+        ],
+        [
+          1450,
+          821.488551700652,
+          27.149344298733055
+        ],
+        [
+          1475,
+          821.488551700652,
+          26.92762836185819
+        ],
+        [
+          1500,
+          821.488551700652,
+          26.70591242498333
+        ],
+        [
+          1525,
+          821.488551700652,
+          26.484196488108466
+        ],
+        [
+          1550,
+          821.488551700652,
+          26.262480551233608
+        ],
+        [
+          1575,
+          821.488551700652,
+          26.040764614358746
+        ],
+        [
+          1600,
+          821.488551700652,
+          25.819048677483885
+        ],
+        [
+          1625,
+          821.488551700652,
+          25.597332740609026
+        ],
+        [
+          1650,
+          821.488551700652,
+          25.37561680373416
+        ],
+        [
+          1675,
+          821.488551700652,
+          25.153900866859303
+        ],
+        [
+          1700,
+          821.488551700652,
+          24.93218492998444
+        ],
+        [
+          1725,
+          821.488551700652,
+          24.71046899310958
+        ],
+        [
+          1750,
+          821.488551700652,
+          24.48875305623472
+        ],
+        [
+          1775,
+          821.488551700652,
+          24.26703711935986
+        ],
+        [
+          1800,
+          821.488551700652,
+          24.045321182484997
+        ],
+        [
+          1825,
+          821.488551700652,
+          23.823605245610135
+        ],
+        [
+          1850,
+          821.488551700652,
+          23.601889308735274
+        ],
+        [
+          1875,
+          819.1369782239235,
+          23.380173371860415
+        ],
+        [
+          1900,
+          819.1369782239235,
+          23.158457434985554
+        ],
+        [
+          1925,
+          819.1369782239235,
+          22.936741498110692
+        ],
+        [
+          1950,
+          819.1369782239235,
+          22.71502556123583
+        ],
+        [
+          1975,
+          819.1369782239235,
+          22.49330962436097
+        ],
+        [
+          2000,
+          819.1369782239235,
+          22.27159368748611
+        ],
+        [
+          2025,
+          819.1369782239235,
+          22.049877750611248
+        ],
+        [
+          2050,
+          819.1369782239235,
+          21.828161813736386
+        ],
+        [
+          2075,
+          819.1369782239235,
+          21.606445876861525
+        ],
+        [
+          2100,
+          819.1369782239235,
+          21.384729939986666
+        ],
+        [
+          2125,
+          801.9123376062153,
+          21.163014003111805
+        ],
+        [
+          2150,
+          752.4839149484391,
+          20.941298066236943
+        ],
+        [
+          2175,
+          752.4839149484391,
+          20.71958212936208
+        ],
+        [
+          2200,
+          717.5449176187267,
+          20.497866192487223
+        ],
+        [
+          2225,
+          656.068408087963,
+          20.276150255612357
+        ],
+        [
+          2250,
+          656.068408087963,
+          20.054434318737496
+        ],
+        [
+          2275,
+          622.244790842289,
+          19.832718381862637
+        ],
+        [
+          2300,
+          622.244790842289,
+          19.611002444987776
+        ],
+        [
+          2325,
+          622.244790842289,
+          19.389286508112914
+        ],
+        [
+          2350,
+          622.244790842289,
+          19.167570571238052
+        ],
+        [
+          2375,
+          622.244790842289,
+          18.945854634363194
+        ],
+        [
+          2400,
+          622.244790842289,
+          18.724138697488332
+        ],
+        [
+          2425,
+          622.244790842289,
+          18.50242276061347
+        ],
+        [
+          2450,
+          622.244790842289,
+          18.28070682373861
+        ],
+        [
+          2475,
+          622.244790842289,
+          18.05899088686375
+        ],
+        [
+          2500,
+          622.244790842289,
+          17.83727494998889
+        ],
+        [
+          2525,
+          622.244790842289,
+          17.615559013114026
+        ],
+        [
+          2550,
+          622.244790842289,
+          17.393843076239165
+        ],
+        [
+          2575,
+          622.244790842289,
+          17.172127139364306
+        ],
+        [
+          2600,
+          622.244790842289,
+          16.95041120248944
+        ],
+        [
+          2625,
+          622.244790842289,
+          16.72869526561458
+        ],
+        [
+          2650,
+          622.244790842289,
+          16.50697932873972
+        ],
+        [
+          2675,
+          622.244790842289,
+          16.285263391864863
+        ],
+        [
+          2700,
+          622.244790842289,
+          16.063547454989997
+        ],
+        [
+          2725,
+          622.244790842289,
+          15.841831518115136
+        ],
+        [
+          2750,
+          622.244790842289,
+          15.620115581240277
+        ],
+        [
+          2775,
+          622.244790842289,
+          15.398399644365416
+        ],
+        [
+          2800,
+          622.244790842289,
+          15.176683707490554
+        ],
+        [
+          2825,
+          622.244790842289,
+          14.954967770615692
+        ],
+        [
+          2850,
+          622.244790842289,
+          14.733251833740834
+        ],
+        [
+          2875,
+          622.244790842289,
+          14.511535896865972
+        ],
+        [
+          2900,
+          622.244790842289,
+          14.28981995999111
+        ],
+        [
+          2925,
+          622.244790842289,
+          14.068104023116248
+        ],
+        [
+          2950,
+          622.244790842289,
+          13.84638808624139
+        ],
+        [
+          2975,
+          622.244790842289,
+          13.624672149366525
+        ],
+        [
+          3000,
+          622.244790842289,
+          13.402956212491667
+        ],
+        [
+          3025,
+          622.244790842289,
+          13.181240275616805
+        ],
+        [
+          3050,
+          600.5071329837912,
+          12.959524338741947
+        ],
+        [
+          3075,
+          600.5071329837912,
+          12.737808401867081
+        ],
+        [
+          3100,
+          600.5071329837912,
+          12.51609246499222
+        ],
+        [
+          3125,
+          600.5071329837912,
+          12.294376528117361
+        ],
+        [
+          3150,
+          600.5071329837912,
+          12.072660591242503
+        ],
+        [
+          3175,
+          600.5071329837912,
+          11.850944654367638
+        ],
+        [
+          3200,
+          600.5071329837912,
+          11.629228717492776
+        ],
+        [
+          3225,
+          600.5071329837912,
+          11.407512780617918
+        ],
+        [
+          3250,
+          600.5071329837912,
+          11.185796843743052
+        ],
+        [
+          3275,
+          600.5071329837912,
+          10.964080906868194
+        ],
+        [
+          3300,
+          600.5071329837912,
+          10.742364969993332
+        ],
+        [
+          3325,
+          600.5071329837912,
+          10.520649033118474
+        ],
+        [
+          3350,
+          600.5071329837912,
+          10.298933096243609
+        ],
+        [
+          3375,
+          600.5071329837912,
+          10.07721715936875
+        ],
+        [
+          3400,
+          600.5071329837912,
+          9.855501222493888
+        ],
+        [
+          3425,
+          600.5071329837912,
+          9.63378528561903
+        ],
+        [
+          3450,
+          600.5071329837912,
+          9.412069348744165
+        ],
+        [
+          3475,
+          600.5071329837912,
+          9.190353411869307
+        ],
+        [
+          3500,
+          600.5071329837912,
+          8.968637474994445
+        ],
+        [
+          3525,
+          600.5071329837912,
+          8.746921538119587
+        ],
+        [
+          3550,
+          600.5071329837912,
+          8.525205601244721
+        ],
+        [
+          3575,
+          600.5071329837912,
+          8.30348966436986
+        ],
+        [
+          3600,
+          600.5071329837912,
+          8.081773727495001
+        ],
+        [
+          3625,
+          600.5071329837912,
+          7.860057790620139
+        ],
+        [
+          3650,
+          600.5071329837912,
+          7.638341853745274
+        ],
+        [
+          3675,
+          600.5071329837912,
+          7.416625916870416
+        ],
+        [
+          3700,
+          600.5071329837912,
+          7.194909979995558
+        ],
+        [
+          3725,
+          600.5071329837912,
+          6.973194043120692
+        ],
+        [
+          3750,
+          600.5071329837912,
+          6.751478106245834
+        ],
+        [
+          3775,
+          600.5071329837912,
+          6.529762169370976
+        ],
+        [
+          3800,
+          600.5071329837912,
+          6.30804623249611
+        ],
+        [
+          3825,
+          600.5071329837912,
+          6.086330295621252
+        ],
+        [
+          3850,
+          600.5071329837912,
+          5.864614358746387
+        ],
+        [
+          3875,
+          600.5071329837912,
+          5.642898421871529
+        ],
+        [
+          3900,
+          598.5477984690021,
+          5.421182484996663
+        ],
+        [
+          3925,
+          598.5477984690021,
+          5.199466548121805
+        ],
+        [
+          3950,
+          598.5477984690021,
+          4.977750611246947
+        ],
+        [
+          3975,
+          598.5477984690021,
+          4.7560346743720885
+        ],
+        [
+          4000,
+          598.5477984690021,
+          4.534318737497223
+        ],
+        [
+          4025,
+          598.5477984690021,
+          4.312602800622358
+        ],
+        [
+          4050,
+          598.5477984690021,
+          4.0908868637474995
+        ],
+        [
+          4075,
+          593.3554297081243,
+          3.8691709268726413
+        ],
+        [
+          4100,
+          593.3554297081243,
+          3.647454989997776
+        ],
+        [
+          4125,
+          592.376590952811,
+          3.4257390531229177
+        ],
+        [
+          4150,
+          592.376590952811,
+          3.2040231162480595
+        ],
+        [
+          4175,
+          592.376590952811,
+          2.982307179373194
+        ],
+        [
+          4200,
+          579.2395585869075,
+          2.760591242498336
+        ],
+        [
+          4225,
+          568.4284795502242,
+          2.5388753056234705
+        ],
+        [
+          4250,
+          568.4284795502242,
+          2.3171593687486123
+        ],
+        [
+          4275,
+          568.4284795502242,
+          2.095443431873747
+        ],
+        [
+          4300,
+          565.6217964910811,
+          1.8737274949988887
+        ],
+        [
+          4325,
+          565.6217964910811,
+          1.6520115581240304
+        ],
+        [
+          4350,
+          505.44629357936856,
+          1.4302956212491722
+        ],
+        [
+          4375,
+          505.44629357936856,
+          1.2085796843743069
+        ],
+        [
+          4400,
+          505.44629357936856,
+          0.9868637474994486
+        ],
+        [
+          4425,
+          505.44629357936856,
+          0.7651478106245833
+        ],
+        [
+          4450,
+          505.44629357936856,
+          0.543431873749725
+        ],
+        [
+          4475,
+          505.44629357936856,
+          0.32171593687485966
+        ],
+        [
+          4500,
+          505.44629357936856,
+          0.10000000000000142
+        ]
+      ],
+      "exponencial": [
+        [
+          0,
+          1226.836791140082,
+          40
+        ],
+        [
+          25,
+          1069.037698989163,
+          38.74175170655675
+        ],
+        [
+          50,
+          945.6982022653675,
+          37.47314568180134
+        ],
+        [
+          75,
+          945.6982022653675,
+          36.24608040249893
+        ],
+        [
+          100,
+          945.6982022653675,
+          35.05919560904244
+        ],
+        [
+          125,
+          945.6982022653675,
+          33.9111755837842
+        ],
+        [
+          150,
+          865.7531411106668,
+          32.80074769250105
+        ],
+        [
+          175,
+          865.7531411106668,
+          31.726680973619395
+        ],
+        [
+          200,
+          865.7531411106668,
+          30.687784773636402
+        ],
+        [
+          225,
+          865.7531411106668,
+          29.68290742722452
+        ],
+        [
+          250,
+          865.7531411106668,
+          28.710934980556317
+        ],
+        [
+          275,
+          865.7531411106668,
+          27.770789956434175
+        ],
+        [
+          300,
+          865.7531411106668,
+          26.86143015985618
+        ],
+        [
+          325,
+          865.7531411106668,
+          25.98184752269388
+        ],
+        [
+          350,
+          865.7531411106668,
+          25.13106698620132
+        ],
+        [
+          375,
+          865.7531411106668,
+          24.308145420116553
+        ],
+        [
+          400,
+          865.7531411106668,
+          23.51217057715736
+        ],
+        [
+          425,
+          865.7531411106668,
+          22.742260081752196
+        ],
+        [
+          450,
+          865.7531411106668,
+          21.99756045188537
+        ],
+        [
+          475,
+          865.7531411106668,
+          21.277246152972026
+        ],
+        [
+          500,
+          865.7531411106668,
+          20.580518682714253
+        ],
+        [
+          525,
+          865.7531411106668,
+          19.906605685923658
+        ],
+        [
+          550,
+          837.4954858601583,
+          19.254760098329356
+        ],
+        [
+          575,
+          837.4954858601583,
+          18.62425931842201
+        ],
+        [
+          600,
+          837.4954858601583,
+          18.01440440641609
+        ],
+        [
+          625,
+          827.021460371441,
+          17.424519309442218
+        ],
+        [
+          650,
+          827.021460371441,
+          16.85395011211074
+        ],
+        [
+          675,
+          827.021460371441,
+          16.302064311615762
+        ],
+        [
+          700,
+          827.021460371441,
+          15.768250116575999
+        ],
+        [
+          725,
+          827.021460371441,
+          15.251915768835262
+        ],
+        [
+          750,
+          827.021460371441,
+          14.752488887470683
+        ],
+        [
+          775,
+          827.021460371441,
+          14.269415834281528
+        ],
+        [
+          800,
+          827.021460371441,
+          13.80216110005519
+        ],
+        [
+          825,
+          827.021460371441,
+          13.350206710930046
+        ],
+        [
+          850,
+          827.021460371441,
+          12.913051654197037
+        ],
+        [
+          875,
+          827.021460371441,
+          12.490211322903503
+        ],
+        [
+          900,
+          827.021460371441,
+          12.081216978643589
+        ],
+        [
+          925,
+          827.021460371441,
+          11.685615231939636
+        ],
+        [
+          950,
+          816.8064913910467,
+          11.302967539638637
+        ],
+        [
+          975,
+          788.0215948064828,
+          10.932849718766493
+        ],
+        [
+          1000,
+          764.6297366322242,
+          10.574851476301237
+        ],
+        [
+          1025,
+          764.6297366322242,
+          10.228575954343901
+        ],
+        [
+          1050,
+          764.6297366322242,
+          9.893639290182872
+        ],
+        [
+          1075,
+          717.6159867987676,
+          9.569670190763995
+        ],
+        [
+          1100,
+          673.3100777435859,
+          9.25630952109477
+        ],
+        [
+          1125,
+          663.9656341728382,
+          8.953209906126292
+        ],
+        [
+          1150,
+          657.8500257548259,
+          8.660035345671675
+        ],
+        [
+          1175,
+          630.111675054053,
+          8.376460841934032
+        ],
+        [
+          1200,
+          607.0205381347531,
+          8.102172039231109
+        ],
+        [
+          1225,
+          573.2174023376031,
+          7.836864875517243
+        ],
+        [
+          1250,
+          573.2174023376031,
+          7.58024524531625
+        ],
+        [
+          1275,
+          573.2174023376031,
+          7.332028673691683
+        ],
+        [
+          1300,
+          528.8914959048792,
+          7.091940000892962
+        ],
+        [
+          1325,
+          523.5883897633258,
+          6.859713077327859
+        ],
+        [
+          1350,
+          523.5883897633258,
+          6.635090468523137
+        ],
+        [
+          1375,
+          523.5883897633258,
+          6.41782316974632
+        ],
+        [
+          1400,
+          523.5883897633258,
+          6.207670329972245
+        ],
+        [
+          1425,
+          523.5883897633258,
+          6.004398984888346
+        ],
+        [
+          1450,
+          523.5883897633258,
+          5.807783798642767
+        ],
+        [
+          1475,
+          523.5883897633258,
+          5.617606814048956
+        ],
+        [
+          1500,
+          523.5883897633258,
+          5.433657210969872
+        ],
+        [
+          1525,
+          523.5883897633258,
+          5.255731072613937
+        ],
+        [
+          1550,
+          523.5883897633258,
+          5.083631159483684
+        ],
+        [
+          1575,
+          514.4344971364014,
+          4.917166690726482
+        ],
+        [
+          1600,
+          514.4344971364014,
+          4.756153132644994
+        ],
+        [
+          1625,
+          514.4344971364014,
+          4.600411994132881
+        ],
+        [
+          1650,
+          514.4344971364014,
+          4.449770628809011
+        ],
+        [
+          1675,
+          514.4344971364014,
+          4.304062043630831
+        ],
+        [
+          1700,
+          514.4344971364014,
+          4.163124713774702
+        ],
+        [
+          1725,
+          514.4344971364014,
+          4.026802403578055
+        ],
+        [
+          1750,
+          514.4344971364014,
+          3.8949439933447834
+        ],
+        [
+          1775,
+          514.4344971364014,
+          3.7674033118219645
+        ],
+        [
+          1800,
+          514.4344971364014,
+          3.644038974162137
+        ],
+        [
+          1825,
+          514.4344971364014,
+          3.5247142251915524
+        ],
+        [
+          1850,
+          514.4344971364014,
+          3.4092967878106206
+        ],
+        [
+          1875,
+          514.4344971364014,
+          3.2976587163585283
+        ],
+        [
+          1900,
+          514.4344971364014,
+          3.189676254779444
+        ],
+        [
+          1925,
+          514.4344971364014,
+          3.0852296994331185
+        ],
+        [
+          1950,
+          514.4344971364014,
+          2.984203266397754
+        ],
+        [
+          1975,
+          514.4344971364014,
+          2.886484963118084
+        ],
+        [
+          2000,
+          514.4344971364014,
+          2.791966464256357
+        ],
+        [
+          2025,
+          514.4344971364014,
+          2.700542991608597
+        ],
+        [
+          2050,
+          514.4344971364014,
+          2.6121131979530396
+        ],
+        [
+          2075,
+          514.4344971364014,
+          2.52657905470196
+        ],
+        [
+          2100,
+          514.4344971364014,
+          2.4438457432323792
+        ],
+        [
+          2125,
+          514.4344971364014,
+          2.363821549775149
+        ],
+        [
+          2150,
+          514.4344971364014,
+          2.286417763745931
+        ],
+        [
+          2175,
+          514.4344971364014,
+          2.2115485794053322
+        ],
+        [
+          2200,
+          514.4344971364014,
+          2.139131000739212
+        ],
+        [
+          2225,
+          514.4344971364014,
+          2.069084749453688
+        ],
+        [
+          2250,
+          514.4344971364014,
+          2.0013321759828746
+        ],
+        [
+          2275,
+          514.4344971364014,
+          1.9357981734106822
+        ],
+        [
+          2300,
+          514.4344971364014,
+          1.8724100942112671
+        ],
+        [
+          2325,
+          514.4344971364014,
+          1.8110976697158283
+        ],
+        [
+          2350,
+          514.4344971364014,
+          1.7517929322164876
+        ],
+        [
+          2375,
+          514.4344971364014,
+          1.6944301396208792
+        ],
+        [
+          2400,
+          513.7531833272789,
+          1.6389457025739504
+        ],
+        [
+          2425,
+          513.7531833272789,
+          1.5852781139661682
+        ],
+        [
+          2450,
+          513.7531833272789,
+          1.5333678807499964
+        ],
+        [
+          2475,
+          513.7531833272789,
+          1.4831574579890492
+        ],
+        [
+          2500,
+          513.7531833272789,
+          1.4345911850668212
+        ],
+        [
+          2525,
+          513.7531833272789,
+          1.3876152239842767
+        ],
+        [
+          2550,
+          513.7531833272789,
+          1.3421774996778963
+        ],
+        [
+          2575,
+          513.7531833272789,
+          1.2982276422920114
+        ],
+        [
+          2600,
+          513.7531833272789,
+          1.2557169313414542
+        ],
+        [
+          2625,
+          513.7531833272789,
+          1.2145982417026084
+        ],
+        [
+          2650,
+          513.7531833272789,
+          1.174825991372986
+        ],
+        [
+          2675,
+          513.7531833272789,
+          1.1363560909414374
+        ],
+        [
+          2700,
+          513.7531833272789,
+          1.0991458947129624
+        ],
+        [
+          2725,
+          513.7531833272789,
+          1.0631541534339521
+        ],
+        [
+          2750,
+          513.7531833272789,
+          1.028340968565448
+        ],
+        [
+          2775,
+          513.7531833272789,
+          0.9946677480537346
+        ],
+        [
+          2800,
+          513.7531833272789,
+          0.9620971635492315
+        ],
+        [
+          2825,
+          513.7531833272789,
+          0.9305931090262637
+        ],
+        [
+          2850,
+          513.7531833272789,
+          0.9001206607578293
+        ],
+        [
+          2875,
+          513.7531833272789,
+          0.8706460386010066
+        ],
+        [
+          2900,
+          513.7531833272789,
+          0.8421365685500755
+        ],
+        [
+          2925,
+          513.7531833272789,
+          0.8145606465158464
+        ],
+        [
+          2950,
+          513.7531833272789,
+          0.7878877032910367
+        ],
+        [
+          2975,
+          513.7531833272789,
+          0.7620881706628678
+        ],
+        [
+          3000,
+          513.7531833272789,
+          0.7371334486353112
+        ],
+        [
+          3025,
+          513.7531833272789,
+          0.7129958737246439
+        ],
+        [
+          3050,
+          513.7531833272789,
+          0.6896486882931772
+        ],
+        [
+          3075,
+          513.7531833272789,
+          0.6670660108871542
+        ],
+        [
+          3100,
+          513.7531833272789,
+          0.6452228075459441
+        ],
+        [
+          3125,
+          513.7531833272789,
+          0.6240948640507135
+        ],
+        [
+          3150,
+          513.7531833272789,
+          0.6036587590818292
+        ],
+        [
+          3175,
+          513.7531833272789,
+          0.5838918382552217
+        ],
+        [
+          3200,
+          513.7531833272789,
+          0.5647721890089352
+        ],
+        [
+          3225,
+          513.7531833272789,
+          0.5462786163120203
+        ],
+        [
+          3250,
+          513.7531833272789,
+          0.5283906191688451
+        ],
+        [
+          3275,
+          513.7531833272789,
+          0.5110883678927782
+        ],
+        [
+          3300,
+          513.7531833272789,
+          0.4943526821240458
+        ],
+        [
+          3325,
+          513.7531833272789,
+          0.4781650095674015
+        ],
+        [
+          3350,
+          513.7531833272789,
+          0.4625074054260332
+        ],
+        [
+          3375,
+          513.7531833272789,
+          0.4473625125089131
+        ],
+        [
+          3400,
+          513.7531833272789,
+          0.43271354198953227
+        ],
+        [
+          3425,
+          513.7531833272789,
+          0.41854425479469776
+        ],
+        [
+          3450,
+          513.7531833272789,
+          0.4048389436027554
+        ],
+        [
+          3475,
+          513.7531833272789,
+          0.39158241543128525
+        ],
+        [
+          3500,
+          513.7531833272789,
+          0.3787599747949644
+        ],
+        [
+          3525,
+          513.7531833272789,
+          0.36635740741493095
+        ],
+        [
+          3550,
+          513.7531833272789,
+          0.35436096446158605
+        ],
+        [
+          3575,
+          513.7531833272789,
+          0.3427573473133706
+        ],
+        [
+          3600,
+          513.7531833272789,
+          0.3315336928146162
+        ],
+        [
+          3625,
+          513.7531833272789,
+          0.32067755901613193
+        ],
+        [
+          3650,
+          513.7531833272789,
+          0.310176911382719
+        ],
+        [
+          3675,
+          513.7531833272789,
+          0.30002010945232144
+        ],
+        [
+          3700,
+          513.7531833272789,
+          0.2901958939320259
+        ],
+        [
+          3725,
+          513.7531833272789,
+          0.280693374216606
+        ],
+        [
+          3750,
+          513.7531833272789,
+          0.2715020163157746
+        ],
+        [
+          3775,
+          513.7531833272789,
+          0.26261163117675823
+        ],
+        [
+          3800,
+          513.7531833272789,
+          0.25401236338925404
+        ],
+        [
+          3825,
+          513.7531833272789,
+          0.24569468026024266
+        ],
+        [
+          3850,
+          513.7531833272789,
+          0.23764936124655064
+        ],
+        [
+          3875,
+          513.7531833272789,
+          0.22986748773344295
+        ],
+        [
+          3900,
+          513.7531833272789,
+          0.22234043314791974
+        ],
+        [
+          3925,
+          513.7531833272789,
+          0.21505985339575429
+        ],
+        [
+          3950,
+          513.7531833272789,
+          0.2080176776116713
+        ],
+        [
+          3975,
+          513.7531833272789,
+          0.20120609921241345
+        ],
+        [
+          4000,
+          513.7531833272789,
+          0.19461756724277596
+        ],
+        [
+          4025,
+          513.7531833272789,
+          0.18824477800501827
+        ],
+        [
+          4050,
+          513.7531833272789,
+          0.18208066696237035
+        ],
+        [
+          4075,
+          513.7531833272789,
+          0.1761184009076619
+        ],
+        [
+          4100,
+          513.7531833272789,
+          0.17035137038839038
+        ],
+        [
+          4125,
+          513.7531833272789,
+          0.16477318237983224
+        ],
+        [
+          4150,
+          513.7531833272789,
+          0.15937765319807354
+        ],
+        [
+          4175,
+          513.7531833272789,
+          0.15415880164510581
+        ],
+        [
+          4200,
+          513.7531833272789,
+          0.14911084237838632
+        ],
+        [
+          4225,
+          513.7531833272789,
+          0.14422817949751404
+        ],
+        [
+          4250,
+          513.7531833272789,
+          0.13950540034091014
+        ],
+        [
+          4275,
+          513.7531833272789,
+          0.13493726948562812
+        ],
+        [
+          4300,
+          513.7531833272789,
+          0.13051872294364145
+        ],
+        [
+          4325,
+          513.7531833272789,
+          0.12624486254817405
+        ],
+        [
+          4350,
+          513.7531833272789,
+          0.12211095052385205
+        ],
+        [
+          4375,
+          513.7531833272789,
+          0.11811240423465694
+        ],
+        [
+          4400,
+          513.7531833272789,
+          0.11424479110385798
+        ],
+        [
+          4425,
+          513.7531833272789,
+          0.11050382370029196
+        ],
+        [
+          4450,
+          513.7531833272789,
+          0.10688535498554422
+        ],
+        [
+          4475,
+          513.7531833272789,
+          0.1033853737167614
+        ],
+        [
+          4500,
+          513.7531833272789,
+          0.1
+        ]
+      ]
+    },
+    "resumen": {
+      "lineal": {
+        "costo": 514.9685152,
+        "segundos": 0.03062224,
+        "desv_costo": 14.988756054212171
+      },
+      "exponencial": {
+        "costo": 507.04404432,
+        "segundos": 0.031842,
+        "desv_costo": 10.381965180294713
+      }
+    }
+  },
+  "ej5": {
+    "ciudades": 9,
+    "instancias": 100,
+    "filas": [
+      {
+        "instancia": 1,
+        "optimo_exacto": 287.425759,
+        "mst": 336.298233,
+        "mst_2opt": 287.425759,
+        "local_aleatoria": 287.425759,
+        "local_vecino": 287.425759,
+        "recocido_lineal": 287.425759,
+        "recocido_exponencial": 287.425759,
+        "razon_mst": 1.170035,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 2,
+        "optimo_exacto": 285.901532,
+        "mst": 313.517705,
+        "mst_2opt": 285.901532,
+        "local_aleatoria": 287.17525,
+        "local_vecino": 285.901532,
+        "recocido_lineal": 285.901532,
+        "recocido_exponencial": 285.901532,
+        "razon_mst": 1.096593,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.004455,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 3,
+        "optimo_exacto": 313.01104,
+        "mst": 348.156732,
+        "mst_2opt": 313.01104,
+        "local_aleatoria": 313.01104,
+        "local_vecino": 313.01104,
+        "recocido_lineal": 313.01104,
+        "recocido_exponencial": 313.01104,
+        "razon_mst": 1.112283,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 4,
+        "optimo_exacto": 173.200222,
+        "mst": 221.952983,
+        "mst_2opt": 173.200222,
+        "local_aleatoria": 173.200222,
+        "local_vecino": 173.200222,
+        "recocido_lineal": 173.200222,
+        "recocido_exponencial": 173.200222,
+        "razon_mst": 1.281482,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 5,
+        "optimo_exacto": 225.207636,
+        "mst": 265.34435,
+        "mst_2opt": 225.207636,
+        "local_aleatoria": 225.207636,
+        "local_vecino": 225.207636,
+        "recocido_lineal": 225.207636,
+        "recocido_exponencial": 225.207636,
+        "razon_mst": 1.178221,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 6,
+        "optimo_exacto": 236.035044,
+        "mst": 236.035044,
+        "mst_2opt": 236.035044,
+        "local_aleatoria": 236.035044,
+        "local_vecino": 236.035044,
+        "recocido_lineal": 236.035044,
+        "recocido_exponencial": 236.035044,
+        "razon_mst": 1.0,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 7,
+        "optimo_exacto": 222.172234,
+        "mst": 276.918842,
+        "mst_2opt": 222.172234,
+        "local_aleatoria": 222.172234,
+        "local_vecino": 222.172234,
+        "recocido_lineal": 222.172234,
+        "recocido_exponencial": 222.172234,
+        "razon_mst": 1.246415,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 8,
+        "optimo_exacto": 258.923166,
+        "mst": 327.699547,
+        "mst_2opt": 258.923166,
+        "local_aleatoria": 258.923166,
+        "local_vecino": 264.113453,
+        "recocido_lineal": 258.923166,
+        "recocido_exponencial": 258.923166,
+        "razon_mst": 1.265625,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.020046,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 9,
+        "optimo_exacto": 339.814995,
+        "mst": 371.374922,
+        "mst_2opt": 339.814995,
+        "local_aleatoria": 339.814995,
+        "local_vecino": 339.814995,
+        "recocido_lineal": 339.814995,
+        "recocido_exponencial": 339.814995,
+        "razon_mst": 1.092874,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 10,
+        "optimo_exacto": 251.620083,
+        "mst": 251.620083,
+        "mst_2opt": 251.620083,
+        "local_aleatoria": 251.620083,
+        "local_vecino": 251.620083,
+        "recocido_lineal": 251.620083,
+        "recocido_exponencial": 251.620083,
+        "razon_mst": 1.0,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 11,
+        "optimo_exacto": 326.273722,
+        "mst": 428.071981,
+        "mst_2opt": 326.273722,
+        "local_aleatoria": 350.987959,
+        "local_vecino": 326.273722,
+        "recocido_lineal": 326.273722,
+        "recocido_exponencial": 326.273722,
+        "razon_mst": 1.312003,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.075747,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 12,
+        "optimo_exacto": 325.156292,
+        "mst": 380.717181,
+        "mst_2opt": 325.156292,
+        "local_aleatoria": 325.156292,
+        "local_vecino": 325.156292,
+        "recocido_lineal": 325.156292,
+        "recocido_exponencial": 325.156292,
+        "razon_mst": 1.170874,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 13,
+        "optimo_exacto": 239.7349,
+        "mst": 253.479971,
+        "mst_2opt": 239.7349,
+        "local_aleatoria": 239.7349,
+        "local_vecino": 239.7349,
+        "recocido_lineal": 239.7349,
+        "recocido_exponencial": 239.7349,
+        "razon_mst": 1.057334,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 14,
+        "optimo_exacto": 284.767812,
+        "mst": 308.666546,
+        "mst_2opt": 284.767812,
+        "local_aleatoria": 296.493222,
+        "local_vecino": 284.767812,
+        "recocido_lineal": 284.767812,
+        "recocido_exponencial": 284.767812,
+        "razon_mst": 1.083924,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.041175,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 15,
+        "optimo_exacto": 329.279033,
+        "mst": 438.342009,
+        "mst_2opt": 329.279033,
+        "local_aleatoria": 329.279033,
+        "local_vecino": 329.279033,
+        "recocido_lineal": 329.279033,
+        "recocido_exponencial": 329.279033,
+        "razon_mst": 1.331217,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 16,
+        "optimo_exacto": 192.309145,
+        "mst": 192.309145,
+        "mst_2opt": 192.309145,
+        "local_aleatoria": 192.309145,
+        "local_vecino": 192.309145,
+        "recocido_lineal": 192.309145,
+        "recocido_exponencial": 192.309145,
+        "razon_mst": 1.0,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 17,
+        "optimo_exacto": 254.216584,
+        "mst": 308.452894,
+        "mst_2opt": 254.216584,
+        "local_aleatoria": 254.216584,
+        "local_vecino": 254.216584,
+        "recocido_lineal": 254.216584,
+        "recocido_exponencial": 254.216584,
+        "razon_mst": 1.213347,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 18,
+        "optimo_exacto": 224.446082,
+        "mst": 292.155087,
+        "mst_2opt": 224.446082,
+        "local_aleatoria": 224.446082,
+        "local_vecino": 224.446082,
+        "recocido_lineal": 224.446082,
+        "recocido_exponencial": 224.446082,
+        "razon_mst": 1.301672,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 19,
+        "optimo_exacto": 327.800929,
+        "mst": 419.65761,
+        "mst_2opt": 327.800929,
+        "local_aleatoria": 327.800929,
+        "local_vecino": 327.800929,
+        "recocido_lineal": 327.800929,
+        "recocido_exponencial": 327.800929,
+        "razon_mst": 1.280221,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 20,
+        "optimo_exacto": 263.592548,
+        "mst": 288.004015,
+        "mst_2opt": 263.592548,
+        "local_aleatoria": 263.592548,
+        "local_vecino": 263.592548,
+        "recocido_lineal": 263.592548,
+        "recocido_exponencial": 263.592548,
+        "razon_mst": 1.092611,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 21,
+        "optimo_exacto": 230.089615,
+        "mst": 273.95332,
+        "mst_2opt": 233.146975,
+        "local_aleatoria": 230.089615,
+        "local_vecino": 230.089615,
+        "recocido_lineal": 230.089615,
+        "recocido_exponencial": 230.089615,
+        "razon_mst": 1.190637,
+        "razon_mst_2opt": 1.013288,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 22,
+        "optimo_exacto": 214.590006,
+        "mst": 236.201256,
+        "mst_2opt": 214.590006,
+        "local_aleatoria": 214.590006,
+        "local_vecino": 214.590006,
+        "recocido_lineal": 214.590006,
+        "recocido_exponencial": 214.590006,
+        "razon_mst": 1.100709,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 23,
+        "optimo_exacto": 291.683882,
+        "mst": 313.721879,
+        "mst_2opt": 291.683882,
+        "local_aleatoria": 300.626837,
+        "local_vecino": 300.626837,
+        "recocido_lineal": 291.683882,
+        "recocido_exponencial": 291.683882,
+        "razon_mst": 1.075554,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.03066,
+        "razon_local_vecino": 1.03066,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 24,
+        "optimo_exacto": 268.846882,
+        "mst": 351.239705,
+        "mst_2opt": 268.846882,
+        "local_aleatoria": 268.846882,
+        "local_vecino": 268.846882,
+        "recocido_lineal": 268.846882,
+        "recocido_exponencial": 268.846882,
+        "razon_mst": 1.306467,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 25,
+        "optimo_exacto": 213.98188,
+        "mst": 265.500071,
+        "mst_2opt": 213.98188,
+        "local_aleatoria": 213.98188,
+        "local_vecino": 213.98188,
+        "recocido_lineal": 213.98188,
+        "recocido_exponencial": 213.98188,
+        "razon_mst": 1.24076,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 26,
+        "optimo_exacto": 273.752707,
+        "mst": 297.465035,
+        "mst_2opt": 280.856109,
+        "local_aleatoria": 273.752707,
+        "local_vecino": 273.752707,
+        "recocido_lineal": 273.752707,
+        "recocido_exponencial": 273.752707,
+        "razon_mst": 1.08662,
+        "razon_mst_2opt": 1.025948,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 27,
+        "optimo_exacto": 315.706075,
+        "mst": 409.211468,
+        "mst_2opt": 315.706075,
+        "local_aleatoria": 315.706075,
+        "local_vecino": 315.706075,
+        "recocido_lineal": 315.706075,
+        "recocido_exponencial": 315.706075,
+        "razon_mst": 1.296179,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 28,
+        "optimo_exacto": 271.48173,
+        "mst": 347.76291,
+        "mst_2opt": 271.48173,
+        "local_aleatoria": 271.48173,
+        "local_vecino": 271.48173,
+        "recocido_lineal": 271.48173,
+        "recocido_exponencial": 271.48173,
+        "razon_mst": 1.280981,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 29,
+        "optimo_exacto": 286.025927,
+        "mst": 326.866494,
+        "mst_2opt": 286.025927,
+        "local_aleatoria": 286.025927,
+        "local_vecino": 292.085088,
+        "recocido_lineal": 286.025927,
+        "recocido_exponencial": 286.025927,
+        "razon_mst": 1.142786,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.021184,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 30,
+        "optimo_exacto": 284.833072,
+        "mst": 313.176461,
+        "mst_2opt": 284.833072,
+        "local_aleatoria": 284.833072,
+        "local_vecino": 284.833072,
+        "recocido_lineal": 284.833072,
+        "recocido_exponencial": 284.833072,
+        "razon_mst": 1.099509,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 31,
+        "optimo_exacto": 247.782474,
+        "mst": 309.633611,
+        "mst_2opt": 247.782474,
+        "local_aleatoria": 247.782474,
+        "local_vecino": 247.782474,
+        "recocido_lineal": 247.782474,
+        "recocido_exponencial": 247.782474,
+        "razon_mst": 1.249619,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 32,
+        "optimo_exacto": 302.929572,
+        "mst": 360.533935,
+        "mst_2opt": 302.929572,
+        "local_aleatoria": 302.929572,
+        "local_vecino": 302.929572,
+        "recocido_lineal": 302.929572,
+        "recocido_exponencial": 302.929572,
+        "razon_mst": 1.190158,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 33,
+        "optimo_exacto": 275.693801,
+        "mst": 275.693801,
+        "mst_2opt": 275.693801,
+        "local_aleatoria": 275.693801,
+        "local_vecino": 275.693801,
+        "recocido_lineal": 275.693801,
+        "recocido_exponencial": 275.693801,
+        "razon_mst": 1.0,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 34,
+        "optimo_exacto": 234.740566,
+        "mst": 333.078665,
+        "mst_2opt": 234.740566,
+        "local_aleatoria": 234.740566,
+        "local_vecino": 234.740566,
+        "recocido_lineal": 234.740566,
+        "recocido_exponencial": 234.740566,
+        "razon_mst": 1.418922,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 35,
+        "optimo_exacto": 299.5004,
+        "mst": 394.626572,
+        "mst_2opt": 299.5004,
+        "local_aleatoria": 299.5004,
+        "local_vecino": 299.5004,
+        "recocido_lineal": 299.5004,
+        "recocido_exponencial": 299.5004,
+        "razon_mst": 1.317616,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 36,
+        "optimo_exacto": 234.832588,
+        "mst": 256.709559,
+        "mst_2opt": 234.832588,
+        "local_aleatoria": 234.832588,
+        "local_vecino": 234.832588,
+        "recocido_lineal": 234.832588,
+        "recocido_exponencial": 234.832588,
+        "razon_mst": 1.09316,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 37,
+        "optimo_exacto": 300.899333,
+        "mst": 374.981138,
+        "mst_2opt": 300.899333,
+        "local_aleatoria": 300.899333,
+        "local_vecino": 300.899333,
+        "recocido_lineal": 300.899333,
+        "recocido_exponencial": 300.899333,
+        "razon_mst": 1.246201,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 38,
+        "optimo_exacto": 208.577527,
+        "mst": 221.470318,
+        "mst_2opt": 208.577527,
+        "local_aleatoria": 208.577527,
+        "local_vecino": 211.315849,
+        "recocido_lineal": 208.577527,
+        "recocido_exponencial": 208.577527,
+        "razon_mst": 1.061813,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.013129,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 39,
+        "optimo_exacto": 267.905331,
+        "mst": 328.181498,
+        "mst_2opt": 267.905331,
+        "local_aleatoria": 267.905331,
+        "local_vecino": 267.905331,
+        "recocido_lineal": 267.905331,
+        "recocido_exponencial": 267.905331,
+        "razon_mst": 1.224991,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 40,
+        "optimo_exacto": 254.274631,
+        "mst": 285.440273,
+        "mst_2opt": 254.274631,
+        "local_aleatoria": 254.274631,
+        "local_vecino": 254.274631,
+        "recocido_lineal": 254.274631,
+        "recocido_exponencial": 254.274631,
+        "razon_mst": 1.122567,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 41,
+        "optimo_exacto": 316.98635,
+        "mst": 388.371256,
+        "mst_2opt": 316.98635,
+        "local_aleatoria": 316.98635,
+        "local_vecino": 316.98635,
+        "recocido_lineal": 316.98635,
+        "recocido_exponencial": 316.98635,
+        "razon_mst": 1.225199,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 42,
+        "optimo_exacto": 303.721337,
+        "mst": 392.581337,
+        "mst_2opt": 303.721337,
+        "local_aleatoria": 303.721337,
+        "local_vecino": 303.721337,
+        "recocido_lineal": 303.721337,
+        "recocido_exponencial": 303.721337,
+        "razon_mst": 1.292571,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 43,
+        "optimo_exacto": 252.213241,
+        "mst": 303.666933,
+        "mst_2opt": 252.213241,
+        "local_aleatoria": 252.213241,
+        "local_vecino": 252.213241,
+        "recocido_lineal": 252.213241,
+        "recocido_exponencial": 252.213241,
+        "razon_mst": 1.204009,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 44,
+        "optimo_exacto": 278.907551,
+        "mst": 291.088406,
+        "mst_2opt": 278.907551,
+        "local_aleatoria": 278.907551,
+        "local_vecino": 278.907551,
+        "recocido_lineal": 278.907551,
+        "recocido_exponencial": 278.907551,
+        "razon_mst": 1.043673,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 45,
+        "optimo_exacto": 274.419007,
+        "mst": 297.145595,
+        "mst_2opt": 274.419007,
+        "local_aleatoria": 274.419007,
+        "local_vecino": 274.419007,
+        "recocido_lineal": 274.419007,
+        "recocido_exponencial": 274.419007,
+        "razon_mst": 1.082817,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 46,
+        "optimo_exacto": 210.285335,
+        "mst": 241.477001,
+        "mst_2opt": 219.156901,
+        "local_aleatoria": 210.285335,
+        "local_vecino": 210.285335,
+        "recocido_lineal": 210.285335,
+        "recocido_exponencial": 210.285335,
+        "razon_mst": 1.14833,
+        "razon_mst_2opt": 1.042188,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 47,
+        "optimo_exacto": 262.433913,
+        "mst": 289.239307,
+        "mst_2opt": 262.433913,
+        "local_aleatoria": 262.433913,
+        "local_vecino": 262.433913,
+        "recocido_lineal": 262.433913,
+        "recocido_exponencial": 262.433913,
+        "razon_mst": 1.102142,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 48,
+        "optimo_exacto": 271.94768,
+        "mst": 321.961566,
+        "mst_2opt": 271.94768,
+        "local_aleatoria": 271.94768,
+        "local_vecino": 271.94768,
+        "recocido_lineal": 271.94768,
+        "recocido_exponencial": 271.94768,
+        "razon_mst": 1.18391,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 49,
+        "optimo_exacto": 279.163857,
+        "mst": 301.987662,
+        "mst_2opt": 279.163857,
+        "local_aleatoria": 279.163857,
+        "local_vecino": 279.163857,
+        "recocido_lineal": 279.163857,
+        "recocido_exponencial": 279.163857,
+        "razon_mst": 1.081758,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 50,
+        "optimo_exacto": 322.831796,
+        "mst": 420.927866,
+        "mst_2opt": 322.831796,
+        "local_aleatoria": 322.831796,
+        "local_vecino": 322.831796,
+        "recocido_lineal": 322.831796,
+        "recocido_exponencial": 322.831796,
+        "razon_mst": 1.303861,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 51,
+        "optimo_exacto": 289.16115,
+        "mst": 358.964762,
+        "mst_2opt": 289.16115,
+        "local_aleatoria": 289.16115,
+        "local_vecino": 289.16115,
+        "recocido_lineal": 289.16115,
+        "recocido_exponencial": 289.16115,
+        "razon_mst": 1.2414,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 52,
+        "optimo_exacto": 224.209311,
+        "mst": 224.209311,
+        "mst_2opt": 224.209311,
+        "local_aleatoria": 224.209311,
+        "local_vecino": 224.209311,
+        "recocido_lineal": 224.209311,
+        "recocido_exponencial": 224.209311,
+        "razon_mst": 1.0,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 53,
+        "optimo_exacto": 236.568228,
+        "mst": 268.59341,
+        "mst_2opt": 236.568228,
+        "local_aleatoria": 236.568228,
+        "local_vecino": 236.568228,
+        "recocido_lineal": 236.568228,
+        "recocido_exponencial": 236.568228,
+        "razon_mst": 1.135374,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 54,
+        "optimo_exacto": 259.28619,
+        "mst": 283.377512,
+        "mst_2opt": 259.28619,
+        "local_aleatoria": 259.28619,
+        "local_vecino": 259.28619,
+        "recocido_lineal": 259.28619,
+        "recocido_exponencial": 259.28619,
+        "razon_mst": 1.092914,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 55,
+        "optimo_exacto": 254.584842,
+        "mst": 277.781871,
+        "mst_2opt": 254.584842,
+        "local_aleatoria": 254.584842,
+        "local_vecino": 254.584842,
+        "recocido_lineal": 254.584842,
+        "recocido_exponencial": 254.584842,
+        "razon_mst": 1.091117,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 56,
+        "optimo_exacto": 227.239852,
+        "mst": 227.239852,
+        "mst_2opt": 227.239852,
+        "local_aleatoria": 227.239852,
+        "local_vecino": 227.239852,
+        "recocido_lineal": 227.239852,
+        "recocido_exponencial": 227.239852,
+        "razon_mst": 1.0,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 57,
+        "optimo_exacto": 262.010449,
+        "mst": 333.671298,
+        "mst_2opt": 266.956481,
+        "local_aleatoria": 266.956481,
+        "local_vecino": 262.010449,
+        "recocido_lineal": 262.010449,
+        "recocido_exponencial": 262.010449,
+        "razon_mst": 1.273504,
+        "razon_mst_2opt": 1.018877,
+        "razon_local_aleatoria": 1.018877,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 58,
+        "optimo_exacto": 310.813478,
+        "mst": 373.98564,
+        "mst_2opt": 310.813478,
+        "local_aleatoria": 310.813478,
+        "local_vecino": 310.813478,
+        "recocido_lineal": 310.813478,
+        "recocido_exponencial": 310.813478,
+        "razon_mst": 1.203248,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 59,
+        "optimo_exacto": 262.077111,
+        "mst": 290.784105,
+        "mst_2opt": 262.077111,
+        "local_aleatoria": 262.077111,
+        "local_vecino": 262.077111,
+        "recocido_lineal": 262.077111,
+        "recocido_exponencial": 262.077111,
+        "razon_mst": 1.109536,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 60,
+        "optimo_exacto": 211.368616,
+        "mst": 221.479555,
+        "mst_2opt": 211.368616,
+        "local_aleatoria": 211.368616,
+        "local_vecino": 211.368616,
+        "recocido_lineal": 211.368616,
+        "recocido_exponencial": 211.368616,
+        "razon_mst": 1.047836,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 61,
+        "optimo_exacto": 274.238983,
+        "mst": 292.826265,
+        "mst_2opt": 274.238983,
+        "local_aleatoria": 274.238983,
+        "local_vecino": 274.238983,
+        "recocido_lineal": 274.238983,
+        "recocido_exponencial": 274.238983,
+        "razon_mst": 1.067778,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 62,
+        "optimo_exacto": 321.007148,
+        "mst": 373.55685,
+        "mst_2opt": 321.007148,
+        "local_aleatoria": 321.007148,
+        "local_vecino": 321.007148,
+        "recocido_lineal": 321.007148,
+        "recocido_exponencial": 321.007148,
+        "razon_mst": 1.163703,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 63,
+        "optimo_exacto": 280.993564,
+        "mst": 347.306465,
+        "mst_2opt": 280.993564,
+        "local_aleatoria": 280.993564,
+        "local_vecino": 280.993564,
+        "recocido_lineal": 280.993564,
+        "recocido_exponencial": 280.993564,
+        "razon_mst": 1.235994,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 64,
+        "optimo_exacto": 282.86518,
+        "mst": 288.860278,
+        "mst_2opt": 288.860278,
+        "local_aleatoria": 282.86518,
+        "local_vecino": 288.860278,
+        "recocido_lineal": 282.86518,
+        "recocido_exponencial": 282.86518,
+        "razon_mst": 1.021194,
+        "razon_mst_2opt": 1.021194,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.021194,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 65,
+        "optimo_exacto": 271.886035,
+        "mst": 271.886035,
+        "mst_2opt": 271.886035,
+        "local_aleatoria": 271.886035,
+        "local_vecino": 271.886035,
+        "recocido_lineal": 271.886035,
+        "recocido_exponencial": 271.886035,
+        "razon_mst": 1.0,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 66,
+        "optimo_exacto": 260.479709,
+        "mst": 319.932171,
+        "mst_2opt": 260.479709,
+        "local_aleatoria": 260.479709,
+        "local_vecino": 260.479709,
+        "recocido_lineal": 260.479709,
+        "recocido_exponencial": 260.479709,
+        "razon_mst": 1.228242,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 67,
+        "optimo_exacto": 264.07547,
+        "mst": 296.016558,
+        "mst_2opt": 264.07547,
+        "local_aleatoria": 264.07547,
+        "local_vecino": 264.07547,
+        "recocido_lineal": 264.07547,
+        "recocido_exponencial": 264.07547,
+        "razon_mst": 1.120954,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 68,
+        "optimo_exacto": 219.422824,
+        "mst": 226.696936,
+        "mst_2opt": 226.696936,
+        "local_aleatoria": 219.422824,
+        "local_vecino": 219.422824,
+        "recocido_lineal": 219.422824,
+        "recocido_exponencial": 219.422824,
+        "razon_mst": 1.033151,
+        "razon_mst_2opt": 1.033151,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 69,
+        "optimo_exacto": 270.673679,
+        "mst": 326.402328,
+        "mst_2opt": 274.781467,
+        "local_aleatoria": 270.673679,
+        "local_vecino": 270.673679,
+        "recocido_lineal": 270.673679,
+        "recocido_exponencial": 270.673679,
+        "razon_mst": 1.205889,
+        "razon_mst_2opt": 1.015176,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 70,
+        "optimo_exacto": 281.741683,
+        "mst": 304.503251,
+        "mst_2opt": 281.741683,
+        "local_aleatoria": 282.635572,
+        "local_vecino": 282.635572,
+        "recocido_lineal": 281.741683,
+        "recocido_exponencial": 281.741683,
+        "razon_mst": 1.080789,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.003173,
+        "razon_local_vecino": 1.003173,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 71,
+        "optimo_exacto": 318.272232,
+        "mst": 384.00653,
+        "mst_2opt": 318.272232,
+        "local_aleatoria": 318.272232,
+        "local_vecino": 318.272232,
+        "recocido_lineal": 318.272232,
+        "recocido_exponencial": 318.272232,
+        "razon_mst": 1.206535,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 72,
+        "optimo_exacto": 275.130541,
+        "mst": 275.130541,
+        "mst_2opt": 275.130541,
+        "local_aleatoria": 275.130541,
+        "local_vecino": 275.130541,
+        "recocido_lineal": 275.130541,
+        "recocido_exponencial": 275.130541,
+        "razon_mst": 1.0,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 73,
+        "optimo_exacto": 276.348306,
+        "mst": 291.735536,
+        "mst_2opt": 276.348306,
+        "local_aleatoria": 276.348306,
+        "local_vecino": 276.348306,
+        "recocido_lineal": 276.348306,
+        "recocido_exponencial": 276.348306,
+        "razon_mst": 1.055681,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 74,
+        "optimo_exacto": 275.127706,
+        "mst": 335.484444,
+        "mst_2opt": 275.127706,
+        "local_aleatoria": 275.127706,
+        "local_vecino": 275.127706,
+        "recocido_lineal": 275.127706,
+        "recocido_exponencial": 275.127706,
+        "razon_mst": 1.219377,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 75,
+        "optimo_exacto": 288.575345,
+        "mst": 315.221921,
+        "mst_2opt": 288.575345,
+        "local_aleatoria": 288.575345,
+        "local_vecino": 288.575345,
+        "recocido_lineal": 288.575345,
+        "recocido_exponencial": 288.575345,
+        "razon_mst": 1.092338,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 76,
+        "optimo_exacto": 243.714083,
+        "mst": 282.600115,
+        "mst_2opt": 250.178375,
+        "local_aleatoria": 243.714083,
+        "local_vecino": 250.178375,
+        "recocido_lineal": 243.714083,
+        "recocido_exponencial": 243.714083,
+        "razon_mst": 1.159556,
+        "razon_mst_2opt": 1.026524,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.026524,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 77,
+        "optimo_exacto": 302.902876,
+        "mst": 322.776172,
+        "mst_2opt": 322.776172,
+        "local_aleatoria": 302.902876,
+        "local_vecino": 302.902876,
+        "recocido_lineal": 302.902876,
+        "recocido_exponencial": 302.902876,
+        "razon_mst": 1.065609,
+        "razon_mst_2opt": 1.065609,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 78,
+        "optimo_exacto": 237.618253,
+        "mst": 299.858119,
+        "mst_2opt": 237.618253,
+        "local_aleatoria": 237.618253,
+        "local_vecino": 237.618253,
+        "recocido_lineal": 237.618253,
+        "recocido_exponencial": 237.618253,
+        "razon_mst": 1.261932,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 79,
+        "optimo_exacto": 290.607704,
+        "mst": 310.080072,
+        "mst_2opt": 292.02298,
+        "local_aleatoria": 292.02298,
+        "local_vecino": 292.02298,
+        "recocido_lineal": 290.607704,
+        "recocido_exponencial": 290.607704,
+        "razon_mst": 1.067006,
+        "razon_mst_2opt": 1.00487,
+        "razon_local_aleatoria": 1.00487,
+        "razon_local_vecino": 1.00487,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 80,
+        "optimo_exacto": 364.142989,
+        "mst": 376.622684,
+        "mst_2opt": 364.142989,
+        "local_aleatoria": 364.312211,
+        "local_vecino": 364.142989,
+        "recocido_lineal": 364.142989,
+        "recocido_exponencial": 364.142989,
+        "razon_mst": 1.034271,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.000465,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 81,
+        "optimo_exacto": 231.92423,
+        "mst": 236.846069,
+        "mst_2opt": 231.92423,
+        "local_aleatoria": 233.33507,
+        "local_vecino": 231.92423,
+        "recocido_lineal": 231.92423,
+        "recocido_exponencial": 231.92423,
+        "razon_mst": 1.021222,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.006083,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 82,
+        "optimo_exacto": 219.41073,
+        "mst": 294.494234,
+        "mst_2opt": 224.663375,
+        "local_aleatoria": 219.41073,
+        "local_vecino": 219.41073,
+        "recocido_lineal": 219.41073,
+        "recocido_exponencial": 219.41073,
+        "razon_mst": 1.342205,
+        "razon_mst_2opt": 1.02394,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 83,
+        "optimo_exacto": 258.928066,
+        "mst": 325.87345,
+        "mst_2opt": 258.928066,
+        "local_aleatoria": 258.928066,
+        "local_vecino": 258.928066,
+        "recocido_lineal": 258.928066,
+        "recocido_exponencial": 258.928066,
+        "razon_mst": 1.258548,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 84,
+        "optimo_exacto": 194.474215,
+        "mst": 204.897738,
+        "mst_2opt": 194.474215,
+        "local_aleatoria": 194.474215,
+        "local_vecino": 194.474215,
+        "recocido_lineal": 194.474215,
+        "recocido_exponencial": 194.474215,
+        "razon_mst": 1.053598,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 85,
+        "optimo_exacto": 300.249689,
+        "mst": 317.541745,
+        "mst_2opt": 300.249689,
+        "local_aleatoria": 300.249689,
+        "local_vecino": 300.249689,
+        "recocido_lineal": 300.249689,
+        "recocido_exponencial": 300.249689,
+        "razon_mst": 1.057592,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 86,
+        "optimo_exacto": 244.682843,
+        "mst": 265.508112,
+        "mst_2opt": 244.682843,
+        "local_aleatoria": 244.682843,
+        "local_vecino": 244.682843,
+        "recocido_lineal": 244.682843,
+        "recocido_exponencial": 244.682843,
+        "razon_mst": 1.085111,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 87,
+        "optimo_exacto": 208.992456,
+        "mst": 276.032164,
+        "mst_2opt": 208.992456,
+        "local_aleatoria": 208.992456,
+        "local_vecino": 208.992456,
+        "recocido_lineal": 208.992456,
+        "recocido_exponencial": 208.992456,
+        "razon_mst": 1.320776,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 88,
+        "optimo_exacto": 270.008875,
+        "mst": 347.01356,
+        "mst_2opt": 270.008875,
+        "local_aleatoria": 270.008875,
+        "local_vecino": 270.008875,
+        "recocido_lineal": 270.008875,
+        "recocido_exponencial": 270.008875,
+        "razon_mst": 1.285193,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 89,
+        "optimo_exacto": 266.407401,
+        "mst": 292.185586,
+        "mst_2opt": 272.788132,
+        "local_aleatoria": 266.407401,
+        "local_vecino": 272.788132,
+        "recocido_lineal": 266.407401,
+        "recocido_exponencial": 266.407401,
+        "razon_mst": 1.096762,
+        "razon_mst_2opt": 1.023951,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.023951,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 90,
+        "optimo_exacto": 241.577253,
+        "mst": 242.483584,
+        "mst_2opt": 241.577253,
+        "local_aleatoria": 241.577253,
+        "local_vecino": 241.577253,
+        "recocido_lineal": 241.577253,
+        "recocido_exponencial": 241.577253,
+        "razon_mst": 1.003752,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 91,
+        "optimo_exacto": 293.541614,
+        "mst": 364.598788,
+        "mst_2opt": 293.541614,
+        "local_aleatoria": 293.541614,
+        "local_vecino": 293.541614,
+        "recocido_lineal": 293.541614,
+        "recocido_exponencial": 293.541614,
+        "razon_mst": 1.242068,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 92,
+        "optimo_exacto": 219.096734,
+        "mst": 259.821734,
+        "mst_2opt": 219.096734,
+        "local_aleatoria": 219.096734,
+        "local_vecino": 219.096734,
+        "recocido_lineal": 219.096734,
+        "recocido_exponencial": 219.096734,
+        "razon_mst": 1.185877,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 93,
+        "optimo_exacto": 252.863309,
+        "mst": 276.704495,
+        "mst_2opt": 252.863309,
+        "local_aleatoria": 252.863309,
+        "local_vecino": 252.863309,
+        "recocido_lineal": 252.863309,
+        "recocido_exponencial": 252.863309,
+        "razon_mst": 1.094285,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 94,
+        "optimo_exacto": 295.111206,
+        "mst": 295.111206,
+        "mst_2opt": 295.111206,
+        "local_aleatoria": 295.111206,
+        "local_vecino": 295.111206,
+        "recocido_lineal": 295.111206,
+        "recocido_exponencial": 295.111206,
+        "razon_mst": 1.0,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 95,
+        "optimo_exacto": 301.758309,
+        "mst": 365.516311,
+        "mst_2opt": 307.401067,
+        "local_aleatoria": 301.758309,
+        "local_vecino": 307.401067,
+        "recocido_lineal": 301.758309,
+        "recocido_exponencial": 301.758309,
+        "razon_mst": 1.211288,
+        "razon_mst_2opt": 1.0187,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0187,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 96,
+        "optimo_exacto": 218.597837,
+        "mst": 282.511658,
+        "mst_2opt": 218.597837,
+        "local_aleatoria": 218.597837,
+        "local_vecino": 218.597837,
+        "recocido_lineal": 218.597837,
+        "recocido_exponencial": 218.597837,
+        "razon_mst": 1.292381,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 97,
+        "optimo_exacto": 276.419146,
+        "mst": 307.382657,
+        "mst_2opt": 276.419146,
+        "local_aleatoria": 276.419146,
+        "local_vecino": 276.419146,
+        "recocido_lineal": 276.419146,
+        "recocido_exponencial": 276.419146,
+        "razon_mst": 1.112017,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 98,
+        "optimo_exacto": 273.468422,
+        "mst": 274.07847,
+        "mst_2opt": 273.468422,
+        "local_aleatoria": 273.468422,
+        "local_vecino": 273.468422,
+        "recocido_lineal": 273.468422,
+        "recocido_exponencial": 273.468422,
+        "razon_mst": 1.002231,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 99,
+        "optimo_exacto": 286.53573,
+        "mst": 310.604803,
+        "mst_2opt": 286.53573,
+        "local_aleatoria": 286.53573,
+        "local_vecino": 286.53573,
+        "recocido_lineal": 286.53573,
+        "recocido_exponencial": 286.53573,
+        "razon_mst": 1.084,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      },
+      {
+        "instancia": 100,
+        "optimo_exacto": 316.416619,
+        "mst": 366.170868,
+        "mst_2opt": 316.416619,
+        "local_aleatoria": 316.416619,
+        "local_vecino": 316.416619,
+        "recocido_lineal": 316.416619,
+        "recocido_exponencial": 316.416619,
+        "razon_mst": 1.157243,
+        "razon_mst_2opt": 1.0,
+        "razon_local_aleatoria": 1.0,
+        "razon_local_vecino": 1.0,
+        "razon_recocido_lineal": 1.0,
+        "razon_recocido_exponencial": 1.0
+      }
+    ],
+    "resumen": {
+      "mst": {
+        "media_costo": 307.89637597,
+        "media_razon": 1.15121327,
+        "max_razon": 1.418922
+      },
+      "mst_2opt": {
+        "media_costo": 268.05919401,
+        "media_razon": 1.00333416,
+        "max_razon": 1.065609
+      },
+      "local_aleatoria": {
+        "media_costo": 267.75026624,
+        "media_razon": 1.00185505,
+        "max_razon": 1.075747
+      },
+      "local_vecino": {
+        "media_costo": 267.69257814,
+        "media_razon": 1.00183431,
+        "max_razon": 1.03066
+      },
+      "recocido_lineal": {
+        "media_costo": 267.19535045,
+        "media_razon": 1.0,
+        "max_razon": 1.0
+      },
+      "recocido_exponencial": {
+        "media_costo": 267.19535045,
+        "media_razon": 1.0,
+        "max_razon": 1.0
+      }
+    }
+  }
+}
